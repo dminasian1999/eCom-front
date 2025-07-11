@@ -771,6 +771,7 @@ const CartPage = () => {
                 value="Proceed To Checkout"
                 disabled
               />
+              <PayPalCheckout/>
               <div className="paymnet-img">
                 <img src="src/images/payment-img.jpg" alt="Payment" />
               </div>

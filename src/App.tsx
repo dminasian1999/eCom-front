@@ -9,6 +9,7 @@ import { ProductT, ReceiptT } from "./utils/types.ts"
 import { useEffect, useState } from "react"
 import { ProductsContext } from "./utils/context.ts"
 import Footer from "./components/htm/Footer.tsx"
+import PayPalCheckout from "./paymant/PayPalCheckout.tsx"
 
 const App = () => {
   // const [selectedId, setSelectedId] = useState<string>(

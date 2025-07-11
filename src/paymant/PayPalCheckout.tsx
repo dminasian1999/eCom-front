@@ -31,7 +31,7 @@ export default function PayPalCheckout() {
           })
         }}
         onApprove={(_data, actions) => {
-          return actions.order.capture().then(details => {
+          return actions.order?.capture().then(details => {
             alert("Payment completed by " + details.payer.name.given_name)
             // тут можно отправить запрос на backend, чтобы отметить заказ как оплаченный
           })
